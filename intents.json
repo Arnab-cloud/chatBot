@@ -1,0 +1,130 @@
+{
+    "intents":
+    [
+        {
+            "tag" : "greetings",
+            "patterns": [
+                "Hi there",
+                "hello",
+                "How are you",
+                "good day"
+            ],
+            "response": ["Hello, Thanks", "Hi Threre"],
+            "context": [" "]
+        },
+        {
+            "tag" : "aircraft",
+            "patterns":[
+                "aircraft",
+                "What is an aircraft",
+                "examples of aircrafts"
+            ],
+            "response":[
+                "\"aircraft\" means any machine which can derive support in the atmosphere from the reactions of the air, other than the reactions of the air against the earth's surface , ans included, wheather fixed or free, airships, kites, gilders and flying machines"
+            ],
+            "context": " "
+        },
+        {
+            "tag" : "carriage",
+            "patterns":[
+                "carriage",
+                "What is an carriage",
+                "what is used for transporting on land"
+            ],
+            "response":[
+                "\"carriage\" includes any carriage, wagon, cart, truck, vehicle or other means of conveying goods or passengers by land, in whatever manner the same may be propelled"
+            ],
+            "context": " "
+        },
+        {
+            "tag": "District Magistrate",
+            "patterns": [
+                "District Magistrate",
+                "what is a District Magistrate"
+            ],
+            "response": [ 
+                "\"District Magistrate\", in a relation to any area for which a Commissioner of Police has been appointed, means the Commisioner of Police tehreof and includes--\n(a) any such Deputy Commissioner of Police,cising jurisdiction over the whole or any part of such area, as may be specified by the State Government in this behalf in relation to such area or part: and \n(b) an Additional District Magistrate;"
+            ],
+            "context": " " 
+        },
+        {
+            "tag": "explosive",
+            "patterns": [
+                "explosive",
+                "what can be used as explosives",
+                "explosive chemicals"
+            ],
+            "response": [
+                "\"explosive\" means gunpowder, nitoglycerine, nitroglycol, gun-cotton, di-nitro-toluene,\ntri-nitro-toluene, picric acid, di-nitro-phenol, tri-nitro-resorcinol (styphnic acid), cyclo-trime-thylene-trinitramine, penta-erythritol-tetranitrate, tetryl, nitro-guanidine, leadazide, lead styphynate, fulminate of mercury or any other metal, diazo-di-nitro-phenol, coloured fires or any other substance whether a single chemical compound or a mixture of substances, whether solid or liquid or gaseous used or manufactured with a view to produce a practical effect by explosion or pyrotechnic effect; and includes fog-signals, fireworks, fuses, rockets, percussion-caps, detonators, cartidgcs, ammunition of all descriptions and every adaptation or preparation of an explosive as defined in this clause"
+            ],
+            "context": " " 
+        },
+        {
+            "tag": "export",
+            "patterns": [
+                "export",
+                 "what is exporting",
+                 "what do you mean by exporting",
+                 "taking out of India"
+            ],
+            "response": [
+                "\"export\"means taking out of India to a place outside India by land, sea or air"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "import",
+            "patterns": [
+                "import",
+                 "what is importing",
+                 "what do you mean by importing",
+                 "bring to india"
+            ],
+            "response": [
+                "\"import\" means to bring into India from a place outside India by land, sea or air"
+            ],
+            "context": " "
+        },
+        {
+            "tag": "master",
+            "patterns": [
+                 "master",
+                 "what is a master",
+                 "having a vessel or aircraft",
+                 "owning a vessel or aircraft"
+            ],
+            "response": [
+                "\"A master is\n\"(a) in relation to any vessel or aircraft means any person, other than a pilot, harbour master, assistant harbour master or berthing master, having for the time being the charge or control of such vessel or aircraft, as the ease may be; and \n(b) in relation to any boat belonging to a ship, means the master of that ship;"
+            ],
+            "context": " "
+        },
+        {
+            "tag": "manufacture",
+            "patterns": [
+                 "manufacture",
+                 "what is a manufacture",
+                 "who repairs",
+                 "who alters",
+                 "who re-emakes",
+                 "who handeles explosives"
+            ],
+            "response": [
+                "\"manufacture\" in relation to an explosive includes the process of—\n(1) dividing the explosive into its component parts or otherwise breaking up or unmaking the explosive, or making fit for use any damaged explosive; and\n(2) re-making, altering or repairing the explosive"
+            ],
+            "context": " "
+        },
+        {
+            "tag": "vessel",
+            "patterns": [
+                 "vessel",
+                 "what is a vessel",
+                 "what is used in navigation",
+                 "what is used for tranposting"
+            ],
+            "response": [
+                "\"vessel\" includes any ship, boat,sailing vessel, or other description of vessel used in navigation whether propelled by oars or otherwise and anything made for the conveyance mainly by water, of human beings or of goods and a caisson."
+            ],
+            "context": " "
+        }
+    ]
+}
